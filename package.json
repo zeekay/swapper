@@ -37,6 +37,7 @@
     "typecheck": "tsc -p tsconfig.json",
     "prebuild": "tsc -p tsconfig.build.json",
     "build": "rollup --config --failAfterWarnings",
+    "export": "./node_modules/react-cosmos/bin/cosmos-export.js",
     "release": "semantic-release",
     "deduplicate": "yarn-deduplicate --strategy=highest",
     "lint": "eslint .",
