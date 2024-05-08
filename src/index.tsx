@@ -1,4 +1,4 @@
-import 'polyfills'
+import './polyfills'
 
 import Swap, { SwapProps } from 'components/Swap'
 import Widget, { WidgetProps } from 'components/Widget'
