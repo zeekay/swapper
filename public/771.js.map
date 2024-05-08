@@ -1,1 +1,0 @@
-{"version":3,"file":"771.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/id-ID.js"],"sourcesContent":["/*eslint-disable*/\n\nvar idID={messages:{}};\n\nexport { idID as default };\n"],"names":[],"sourceRoot":""}

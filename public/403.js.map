@@ -1,1 +1,0 @@
-{"version":3,"file":"403.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/sw-TZ.js"],"sourcesContent":["/*eslint-disable*/\n\nvar swTZ={messages:{}};\n\nexport { swTZ as default };\n"],"names":[],"sourceRoot":""}

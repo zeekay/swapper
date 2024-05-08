@@ -1,1 +1,0 @@
-{"version":3,"file":"226.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/he-IL.js"],"sourcesContent":["/*eslint-disable*/\n\nvar heIL={messages:{}};\n\nexport { heIL as default };\n"],"names":[],"sourceRoot":""}

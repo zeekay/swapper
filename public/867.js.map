@@ -1,1 +1,0 @@
-{"version":3,"file":"867.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/zh-CN.js"],"sourcesContent":["/*eslint-disable*/\n\nvar zhCN={messages:{}};\n\nexport { zhCN as default };\n"],"names":[],"sourceRoot":""}

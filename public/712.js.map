@@ -1,1 +1,0 @@
-{"version":3,"file":"712.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/ja-JP.js"],"sourcesContent":["/*eslint-disable*/\n\nvar jaJP={messages:{}};\n\nexport { jaJP as default };\n"],"names":[],"sourceRoot":""}

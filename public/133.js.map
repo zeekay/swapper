@@ -1,1 +1,0 @@
-{"version":3,"file":"133.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/uk-UA.js"],"sourcesContent":["/*eslint-disable*/\n\nvar ukUA={messages:{}};\n\nexport { ukUA as default };\n"],"names":[],"sourceRoot":""}

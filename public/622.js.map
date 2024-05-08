@@ -1,1 +1,0 @@
-{"version":3,"file":"622.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/no-NO.js"],"sourcesContent":["/*eslint-disable*/\n\nvar noNO={messages:{}};\n\nexport { noNO as default };\n"],"names":[],"sourceRoot":""}

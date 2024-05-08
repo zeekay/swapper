@@ -1,1 +1,0 @@
-{"version":3,"file":"102.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/ca-ES.js"],"sourcesContent":["/*eslint-disable*/\n\nvar caES={messages:{}};\n\nexport { caES as default };\n"],"names":[],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"file":"585.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/fr-FR.js"],"sourcesContent":["/*eslint-disable*/\n\nvar frFR={messages:{}};\n\nexport { frFR as default };\n"],"names":[],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"file":"165.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/pt-PT.js"],"sourcesContent":["/*eslint-disable*/\n\nvar ptPT={messages:{}};\n\nexport { ptPT as default };\n"],"names":[],"sourceRoot":""}

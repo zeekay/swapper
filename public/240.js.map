@@ -1,1 +1,0 @@
-{"version":3,"file":"240.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/hu-HU.js"],"sourcesContent":["/*eslint-disable*/\n\nvar huHU={messages:{}};\n\nexport { huHU as default };\n"],"names":[],"sourceRoot":""}
