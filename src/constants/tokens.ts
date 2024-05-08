@@ -137,6 +137,15 @@ export const USDC_BASE = new Token(
   'USDC',
   'USD Coin'
 )
+
+export const FRENS_BASE = new Token(
+  SupportedChainId.BASE,
+  '0x72d1eb99bebadc114c52526f55c9bbad5870dd5c',
+  18,
+  'FRENS',
+  'DegenFrens'
+)
+
 export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.MAINNET]: USDC_MAINNET,
   [SupportedChainId.ARBITRUM_ONE]: USDC_ARBITRUM,

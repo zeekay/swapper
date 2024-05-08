@@ -13,10 +13,19 @@ import { CHAIN_NAMES_TO_IDS } from 'constants/chains'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useValue } from 'react-cosmos/fixture'
 
-import { DAI, USDC_MAINNET } from '../constants/tokens'
+import { DAI, USDC_BASE } from '../constants/tokens'
 import EventFeed, { Event, HANDLERS } from './EventFeed'
 import useOption from './useOption'
 import useProvider from './useProvider'
+
+const FRENS = {
+  chainId: 8453,
+  decimals: 18,
+  symbol: 'FRENS',
+  name: 'Degen Frens',
+  address: '0x72d1eb99bebadc114c52526f55c9bbad5870dd5c',
+  logoURI: "https://ethereum-optimism.github.io/data/cbETH/logo.svg"
+};
 
 const TOKEN_WITH_NO_LOGO = {
   chainId: 1,
@@ -26,11 +35,12 @@ const TOKEN_WITH_NO_LOGO = {
   address: '0x3819f64f282bf135d62168C1e513280dAF905e06',
 }
 
-const mainnetTokens = tokens.filter((token) => token.chainId === SupportedChainId.MAINNET)
+const baseTokens = tokens.filter((token) => token.chainId === SupportedChainId.BASE)
+baseTokens.unshift(FRENS)
 const tokenLists: Record<string, TokenInfo[] | string> = {
   Default: tokens,
   Extended: 'https://extendedtokens.uniswap.org/',
-  'Mainnet only': mainnetTokens,
+  'Base only': baseTokens,
   Logoless: [TOKEN_WITH_NO_LOGO],
 }
 
@@ -56,7 +66,8 @@ function Fixture() {
   const currencies: Record<string, string> = {
     Native: 'NATIVE',
     DAI: DAI.address,
-    USDC: USDC_MAINNET.address,
+    FRENS: FRENS.address,
+    USDC: USDC_BASE.address,
   }
   const defaultInputToken = useOption('defaultInputToken', { options: currencies, defaultValue: 'Native' })
   const [defaultInputAmount] = useValue('defaultInputAmount', { defaultValue: 0 })
@@ -75,9 +86,9 @@ function Fixture() {
 
   const defaultNetwork = useOption('defaultChainId', {
     options: Object.keys(CHAIN_NAMES_TO_IDS),
-    defaultValue: 'mainnet',
+    defaultValue: 'base',
   })
-  const defaultChainId = defaultNetwork ? CHAIN_NAMES_TO_IDS[defaultNetwork] : undefined
+  const defaultChainId = defaultNetwork ? CHAIN_NAMES_TO_IDS['base'] : undefined
 
   const connector = useProvider(defaultChainId)
 
@@ -103,13 +114,13 @@ function Fixture() {
       convenienceFeeRecipient={convenienceFeeRecipient}
       defaultInputTokenAddress={defaultInputToken}
       defaultInputAmount={defaultInputAmount}
-      defaultOutputTokenAddress={defaultOutputToken}
-      defaultOutputAmount={defaultOutputAmount}
+      defaultOutputTokenAddress={FRENS.address}
+      defaultOutputAmount={10000}
       hideConnectionUI={hideConnectionUI}
-      defaultChainId={defaultChainId}
+      defaultChainId={8453}
       provider={connector}
       theme={theme}
-      tokenList={tokenList}
+      tokenList={baseTokens}
       width={width}
       routerUrl={routerUrl}
       brandedFooter={brandedFooter}

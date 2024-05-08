@@ -51,10 +51,10 @@ export default function useValidate(props: ValidatorProps) {
     if (defaultOutputAmount && defaultInputAmount) {
       throw new IntegrationError('defaultInputAmount and defaultOutputAmount may not both be defined.')
     }
-    if (defaultInputAmount && (isNaN(+defaultInputAmount) || defaultInputAmount < 0)) {
+    if (defaultInputAmount && (isNaN(+defaultInputAmount) || +defaultInputAmount < 0)) {
       throw new IntegrationError(`defaultInputAmount must be a positive number (you set it to ${defaultInputAmount})`)
     }
-    if (defaultOutputAmount && (isNaN(+defaultOutputAmount) || defaultOutputAmount < 0)) {
+    if (defaultOutputAmount && (isNaN(+defaultOutputAmount) || +defaultOutputAmount < 0)) {
       throw new IntegrationError(
         `defaultOutputAmount must be a positive number (you set it to ${defaultOutputAmount}).`
       )

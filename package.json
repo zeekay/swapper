@@ -1,8 +1,8 @@
 {
-  "name": "@uniswap/widgets",
-  "description": "Uniswap Interface",
-  "homepage": "https://github.com/Uniswap/widgets#readme",
-  "repository": "https://github.com/Uniswap/widgets",
+  "name": "@degenfrens/swapper",
+  "description": "Degen Frens Uniswap Interface",
+  "homepage": "https://github.com/degensfrens/swapper#readme",
+  "repository": "https://github.com/degenfrens/swapper",
   "files": [
     "dist"
   ],
@@ -166,6 +166,7 @@
     "@types/wcag-contrast": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
+    "typescript": "^5.4.5",
     "@uniswap/default-token-list": "^11.6.0",
     "@uniswap/v2-core": "1.0.0",
     "@uniswap/v3-core": "1.0.0",
@@ -207,7 +208,6 @@
     "sass": "^1.45.1",
     "semantic-release": "^19.0.3",
     "typechain": "^5.0.0",
-    "typescript": "^4.4.3",
     "wcag-contrast": "^3.0.0",
     "webpack": "^5.76.0",
     "yarn-deduplicate": "^6.0.2"

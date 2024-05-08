@@ -3775,7 +3775,7 @@
     "@uniswap/v2-sdk" "^3.2.0"
     "@uniswap/v3-sdk" "^3.10.0"
 
-"@uniswap/sdk-core@^4", "@uniswap/sdk-core@^4.0.0", "@uniswap/sdk-core@^4.0.2", "@uniswap/sdk-core@^4.0.7":
+"@uniswap/sdk-core@^4", "@uniswap/sdk-core@^4.0.0", "@uniswap/sdk-core@^4.0.7":
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.0.7.tgz#90dfd070d7e44494234618af398da158363ae827"
   integrity sha512-jscx7KUIWzQatcL5PHY6xy0gEL9IGQcL5h/obxzX9foP2KoNk9cq66Ia8I2Kvpa7zBcPOeW1hU0hJNBq6CzcIQ==
@@ -13599,10 +13599,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.4.3:
-  version "4.5.5"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz"
-  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
+typescript@^5.4.5:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
+  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
 
 typical@^2.6.0, typical@^2.6.1:
   version "2.6.1"
