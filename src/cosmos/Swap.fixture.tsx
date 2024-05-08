@@ -24,7 +24,7 @@ const FRENS = {
   symbol: 'FRENS',
   name: 'Degen Frens',
   address: '0x72d1eb99bebadc114c52526f55c9bbad5870dd5c',
-  logoURI: "https://ethereum-optimism.github.io/data/cbETH/logo.svg"
+  logoURI: "https://i.ibb.co/Yp2RscC/IMG-0838.png"
 };
 
 const TOKEN_WITH_NO_LOGO = {
