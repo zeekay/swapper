@@ -1,8 +1,14 @@
 {
   "name": "@degenfrens/swapper",
+  "version": "2.59.0",
   "description": "Degen Frens Uniswap Interface",
   "homepage": "https://github.com/degensfrens/swapper#readme",
   "repository": "https://github.com/degenfrens/swapper",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public",
+    "scope": "@degenfrens"
+  },
   "files": [
     "dist"
   ],
