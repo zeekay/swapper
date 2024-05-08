@@ -115,7 +115,7 @@ function Fixture() {
       defaultInputTokenAddress={defaultInputToken}
       defaultInputAmount={defaultInputAmount}
       defaultOutputTokenAddress={FRENS.address}
-      defaultOutputAmount={10000}
+      defaultOutputAmount={1000000}
       hideConnectionUI={hideConnectionUI}
       defaultChainId={8453}
       provider={connector}
