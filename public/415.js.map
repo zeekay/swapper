@@ -1,0 +1,1 @@
+{"version":3,"file":"415.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/vi-VN.js"],"sourcesContent":["/*eslint-disable*/\n\nvar viVN={messages:{}};\n\nexport { viVN as default };\n"],"names":[],"sourceRoot":""}

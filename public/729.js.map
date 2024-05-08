@@ -1,0 +1,1 @@
+{"version":3,"file":"729.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/es-ES.js"],"sourcesContent":["/*eslint-disable*/\n\nvar esES={messages:{}};\n\nexport { esES as default };\n"],"names":[],"sourceRoot":""}

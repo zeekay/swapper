@@ -1,0 +1,1 @@
+{"version":3,"file":"934.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/pt-BR.js"],"sourcesContent":["/*eslint-disable*/\n\nvar ptBR={messages:{}};\n\nexport { ptBR as default };\n"],"names":[],"sourceRoot":""}

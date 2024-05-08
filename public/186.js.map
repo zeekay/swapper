@@ -1,0 +1,1 @@
+{"version":3,"file":"186.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/fi-FI.js"],"sourcesContent":["/*eslint-disable*/\n\nvar fiFI={messages:{}};\n\nexport { fiFI as default };\n"],"names":[],"sourceRoot":""}

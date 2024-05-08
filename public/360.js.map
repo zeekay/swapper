@@ -1,0 +1,1 @@
+{"version":3,"file":"360.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/af-ZA.js"],"sourcesContent":["/*eslint-disable*/\n\nvar afZA={messages:{}};\n\nexport { afZA as default };\n"],"names":[],"sourceRoot":""}

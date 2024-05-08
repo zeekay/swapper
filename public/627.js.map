@@ -1,0 +1,1 @@
+{"version":3,"file":"627.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/el-GR.js"],"sourcesContent":["/*eslint-disable*/\n\nvar elGR={messages:{}};\n\nexport { elGR as default };\n"],"names":[],"sourceRoot":""}

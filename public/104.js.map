@@ -1,0 +1,1 @@
+{"version":3,"file":"104.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/de-DE.js"],"sourcesContent":["/*eslint-disable*/\n\nvar deDE={messages:{}};\n\nexport { deDE as default };\n"],"names":[],"sourceRoot":""}

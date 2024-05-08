@@ -1,0 +1,1 @@
+{"version":3,"file":"130.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/da-DK.js"],"sourcesContent":["/*eslint-disable*/\n\nvar daDK={messages:{}};\n\nexport { daDK as default };\n"],"names":[],"sourceRoot":""}

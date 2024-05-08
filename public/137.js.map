@@ -1,0 +1,1 @@
+{"version":3,"file":"137.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/sv-SE.js"],"sourcesContent":["/*eslint-disable*/\n\nvar svSE={messages:{}};\n\nexport { svSE as default };\n"],"names":[],"sourceRoot":""}

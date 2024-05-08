@@ -1,0 +1,1 @@
+{"version":3,"file":"636.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/pl-PL.js"],"sourcesContent":["/*eslint-disable*/\n\nvar plPL={messages:{}};\n\nexport { plPL as default };\n"],"names":[],"sourceRoot":""}

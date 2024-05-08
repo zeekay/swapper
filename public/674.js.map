@@ -1,0 +1,1 @@
+{"version":3,"file":"674.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/ru-RU.js"],"sourcesContent":["/*eslint-disable*/\n\nvar ruRU={messages:{}};\n\nexport { ruRU as default };\n"],"names":[],"sourceRoot":""}

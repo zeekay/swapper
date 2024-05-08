@@ -1,0 +1,1 @@
+{"version":3,"file":"134.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/zh-TW.js"],"sourcesContent":["/*eslint-disable*/\n\nvar zhTW={messages:{}};\n\nexport { zhTW as default };\n"],"names":[],"sourceRoot":""}

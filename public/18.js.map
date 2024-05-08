@@ -1,0 +1,1 @@
+{"version":3,"file":"18.js","mappings":";;;;;;;;;;AAAA;AAEA;AAAA;AAAA","sources":["webpack://@degenfrens/swapper/./dist/locales/it-IT.js"],"sourcesContent":["/*eslint-disable*/\n\nvar itIT={messages:{}};\n\nexport { itIT as default };\n"],"names":[],"sourceRoot":""}
